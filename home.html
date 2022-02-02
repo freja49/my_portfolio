@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Stacy</title>
+    <link rel="stylesheet" href="./css/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Mono:wght@200;400;500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./image/logo.png">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body >
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+        </span>
+
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#"><img src="./image/logo.png" height="50px"></a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active ">
+                <a class="nav-link nav-link-ltr" href="#banner">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-ltr" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-ltr" href="#work">Works</a>
+            </li>
+
+        </ul>
+
+    </div>
+    <a href="https://www.linkedin.com/in/stacy-she-5ba783195/" class="social_link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/freja49" class="social_link" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="mailto:poloein@outlook.com" class="social_link"><i class="far fa-envelope"></i></a>
+
+</nav>
+<!--/.Navbar-->
+<div class="container-fluid p-0 well" id="well">
+    <div class="banner row panel" id="banner">
+        <div class="col-md-5 col-sm-7 col-8 left">
+            <h3 class="greet animate__animated animate__shakeX">Hi, there<br/> I am Stacy</h3>
+            <p class=" animate__animated animate__fadeIn">I am a frontend developer based in Hong Kong. I am passionate about designing and building responsive website.</p>
+        </div>
+        <div class="col-md-7 col-sm-5 col-4 right"></div>
+    </div>
+    <div class="about row pb-3 panel" id="about">
+        <div class="col-md-5 col-sm-5">
+            <img src="./image/laptop.gif" class="laptop">
+        </div>
+        <div class="right col-md-7 col-sm-7 pr-3">
+            <h4 class="greet">About me</h4>
+            <div class="card">
+                <div class="card-header">
+                    <ul class="nav nav-tabs " role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
+                                <i class="now-ui-icons fas fa-book"></i> Education
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
+                                <i class="now-ui-icons fas fa-laptop-house"></i> Experience
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                                <i class="now-ui-icons far fa-lightbulb"></i> Skills
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <!-- Tab panes -->
+                    <div class="tab-content text-center">
+                        <div class="tab-pane active" id="home" role="tabpanel">
+                            <ul style="font-weight: 200;font-size: 0.9rem">
+                                <li>2017-2018 Master of Arts in Intercultural Studies, CUHK, Hong Kong</li>
+                                <li>2013-2017 Bachelor of Arts in English, Xiamen University, Mainland China</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="profile" role="tabpanel">
+                            <ul>
+                                <li><strong>FRONTEND ENGINEER (Part-time)<br/>
+                                    Releap Group Limited | 2021.09 - 2021.11
+                                </strong>
+                                    <p> -Took part in designing the UI/UX of the crypto market place</p>
+                                    <p> -Built websites according to the UI design under the framework of React</p>
+
+                                </li>
+                                <li><strong>FRONTEND ENGINEER (Full-time)<br/>
+                                    bWebs International Ltd. | 2021.1 - 2021.12
+                                </strong>
+                                   <p> Enquired clients’ needs, designed and built responsive E-commerce web pages accordingly
+                                    Designed and implemented new features of the company system</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="messages" role="tabpanel">
+                            <p>
+                                <span class="badge badge-dark">HTML</span>
+                                <span class="badge badge-dark">CSS</span>
+                                <span class="badge badge-dark">Javascript</span>
+                                <span class="badge badge-dark">Bootstrap</span>
+                                <span class="badge badge-dark">Jquery</span>
+                                <span class="badge badge-dark">React</span>
+                                <span class="badge badge-dark">Web design</span>
+                                <span class="badge badge-dark">Figma</span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <a href="./image/logo.png" class="cv btn" download>View my CV</a>
+        </div>
+
+    </div>
+    <div class="panel">
+        <div class="work" id="work">
+            <h3 class="greet mb-4 animate__animated animate__fadeIn">My works</h3>
+            <div class="item-wrapper" style="width:85%">
+
+            </div>
+        </div>
+
+        <footer>
+            <a href="https://www.linkedin.com/in/stacy-she-5ba783195/" class="footer_link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/freja49" class="footer_link" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:poloein@outlook.com" class="footer_link"><i class="far fa-envelope"></i></a>
+        </footer>
+    </div>
+    <div class="modal fade" id="inHimfamily" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">inHimfamily E-commerce Website</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./image/site1.png" width="100%">
+                 <p>A customized fashion E-commerce website built in the Magento</p>
+                    <span class="badge">HTML</span>  <span class="badge">CSS</span> <span class="badge">Magento</span>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="https://inhimfamily.store/">Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Royal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Royal Regency E-commerce Website</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./image/site2.png">
+                    <p>This is a website of a suit tailor. I was responsible for designing and building of it.</p>
+                    <span class="badge">HTML</span>  <span class="badge">CSS</span><span class="badge">Bootstrap</span>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://royalregency.bwebs.com/" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Newglory" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Newglory E-commerce Website</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./image/site3.png">
+                    <p>This is a website of a toy company. I was responsible for designing and building of it.</p>
+                    <span class="badge">HTML</span>  <span class="badge">CSS</span><span class="badge">Bootstrap</span>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://newglory.bwebs.com/" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Bchat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Bchat Introduction Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./image/site4.png">
+                    <p>I designed and built this page, which is an introductory page about the company's chat App.</p>
+                    <span class="badge">HTML</span>  <span class="badge">CSS</span> <span class="badge">Bootstrap</span>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.bwebs.com/Home/Index/landing_bchat" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Trivia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Trivia Web App</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./image/site5.png">
+                    <p>A web game using React and trivia api, which shows different questions everytime, and examine the answers that user choose</p>
+                    <span class="badge">HTML</span>  <span class="badge">CSS</span> <span class="badge">Javascript</span> <span class="badge">React</span>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://freja49.github.io/trivia/" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Crypto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Crypto Platform Design</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="position: relative">
+                    <div id="list">
+                        <img src="./image/site7-a.png">
+                        <img src="./image/site7-b.png">
+                        <img src="./image/site7-c.png">
+                    </div>
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                    <p>A UI design of a crypto market place</p>
+                    <span class="badge">Figma</span>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://freja49.github.io/trivia/" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $(function (){
+        var $itemWrapper = $(".item-wrapper");
+        getItemList();
+        function getItemList(){
+            $.ajax({
+                url:"./data.json",
+                dataType:"json",
+                success:function (data){
+                    console.log(data.result);
+
+                    $.each(data.result, function (index, ele){
+                        var $item= createItem(ele);
+                        $itemWrapper.append($item);
+                    })
+                },
+                error:function (e){
+                    console.log(e)
+                }
+            })
+        }
+        function createItem(ele){
+            var $item = $(
+                " <div class='item'>"+
+                "<input type='hidden' value="+ele.id+"/>"+
+                "<button class='open' data-toggle='modal' data-target=#"+ele.id+">+</button>"+
+                "<img src="+ele.img+" width='100%' >"+
+                " </div>"
+
+            )
+            return $item;
+        }
+        var index= 0;
+        $("#next").click(function (){
+            index ++;
+            if(index >2){
+                index=0;
+            }
+            animate(index);
+        })
+        $("#prev").click(function (){
+            index --;
+            if(index <0){
+                index=2;
+            }
+            animate(index);
+        })
+        function animate(index) {
+            $("#list>img").eq(index).fadeIn().siblings().fadeOut();
+
+        }
+
+
+
+
+    })
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+ "result":[
+   {
+     "name": "inHimfamily E-commerce Website",
+     "id": "inHimfamily",
+     "intro": "A fashion E-commerce website built in the Magento",
+     "tech": "HTML, CSS",
+     "link": "",
+      "img": "./image/site1.png"
+   },
+   {
+     "name": "Royal Regency E-commerce Website",
+     "id": "Royal",
+     "intro": "This is a website of a suit tailor. I was responsible for designing and building of it. ",
+     "tech": "HTML, CSS",
+     "link": "",
+     "img": "./image/site2.png"
+   },
+   {
+     "name": "Newglory E-commerce Website",
+     "id": "Newglory",
+     "intro": "This is a website of a toy company. I was responsible for designing and building of it. ",
+     "tech": "HTML, CSS",
+     "link": "",
+     "img": "./image/site3.png"
+   },
+   {
+     "name": "Bchat Introduction Page",
+     "id": "Bchat",
+     "intro": "I designed and built this page, which is an introductory page about the company's chat App. ",
+     "tech": "HTML, CSS",
+     "link": "",
+     "img": "./image/site4.png"
+   },
+   {
+     "name": "Trivia",
+     "id": "Trivia",
+     "intro": "A web game using React and trivia api, which shows different questions everytime, and examine then answers that user uses  ",
+     "tech": "HTML, CSS, Javascript, React",
+     "link": "",
+     "img": "./image/site5.png"
+   },
+   {
+     "name": "Web Clock",
+     "id": "Web Clock",
+     "intro": "A mini web App showing the random pictures and different time according to the time zone of the user ",
+     "tech": "HTML, CSS, Javascript",
+     "link": "",
+     "img": "./image/site6.png"
+   },
+   {
+     "name": "Crypto platform",
+     "id": "Crypto",
+     "intro": "A UI design of a crypto market place",
+     "tech": "Figma",
+     "link": "",
+     "img": "./image/site7.png"
+   }
+ ]
+
+
+
+}
