@@ -41,20 +41,20 @@
      "img": "./image/site5.png"
    },
    {
-     "name": "Web Clock",
-     "id": "Web Clock",
-     "intro": "A mini web App showing the random pictures and different time according to the time zone of the user ",
-     "tech": "HTML, CSS, Javascript",
-     "link": "",
-     "img": "./image/site6.png"
-   },
-   {
      "name": "Crypto platform",
      "id": "Crypto",
      "intro": "A UI design of a crypto market place",
      "tech": "Figma",
      "link": "",
      "img": "./image/site7.png"
+   },
+   {
+     "name": "Crypto marketplace",
+     "id": "Market",
+     "intro": "A ",
+     "tech": "HTML, CSS, Bootstrap, React, Javascript",
+     "link": "",
+     "img": "./image/site8.png"
    }
  ]
 

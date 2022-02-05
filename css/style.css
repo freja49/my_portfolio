@@ -231,16 +231,29 @@ li{
 footer{
     background: #D06224;
     width: 100%;
-    height:100px;
+    padding:30px;
+    margin-top: 80px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+.footer_icon{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+
 }
 .footer_link{
     color:#fff;
     font-size: 22px;
-    margin-right: 15px;
+    margin:0 8px;
+    text-align: center;
+}
+.footer_link:hover{
+    color:#F5EEDC
 }
 .modal-body p{
     margin-top: 20px;
@@ -437,7 +450,7 @@ footer{
 }
 @media screen and (min-width:994px){
     footer{
-        display: none;
+
     }
 }
 @media screen and (max-width: 994px){
